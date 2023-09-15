@@ -1,0 +1,67 @@
+.card{
+    min-width: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-slate200);
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.item{
+    /* background-color: rgb(171, 171, 171); */
+}
+
+
+
+/* xs */
+@media (min-width: 475px){
+    .card{
+        padding: 0.9rem;
+    }
+  }
+  
+  /* sm */
+  @media (min-width: 640px){
+    .container{
+        max-width: 640px;
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px){
+    .card{
+        width: 70%;
+    }
+  }
+  
+    /* lg */
+    @media (min-width: 896px){
+      .container{
+        max-width: 896px;
+      }
+    }
+  
+    /* xl */
+    @media (min-width: 1024px){
+      .container{
+          max-width: 1024px;
+      }
+    }
+    
+    /* 2xl */
+    @media (min-width: 1280px){
+      .container{
+          max-width: 1280px;
+      }
+    }
+    
+    /* 3xl */
+    @media (min-width: 1536px){
+      .container{
+          max-width: 1536px;
+      }
+    }
+    
+    
+  
