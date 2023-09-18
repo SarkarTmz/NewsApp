@@ -1,9 +1,9 @@
 .main{
     background-color: var(--clr-dark);
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
-
+    margin-top: -1rem;
     /* padding-bottom: 1rem; */
 }
 .nav a{
@@ -14,8 +14,9 @@
 }
 .nav{
     display: flex;
+    padding: 0.5rem;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
     font-family: 'Lexend Deca', sans-serif;
 }
 .nav ul{
@@ -33,25 +34,23 @@
 .headline ul{
     display: none;
 }
-.headline{
-    
-}
+
 .main2{
     position: fixed;
+    top: ;
     right: 0;
     width: 100%;
-    margin-top: -1.9rem;
+    /* margin-top: 0rem; */
 }
     
 .mobile-nav{
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     z-index: 9999;
 }
 img.mobile-logo{
-    width: 70px;
-    
+    width: 60px;
 }
 .bar{
     width: 35px;
@@ -90,11 +89,7 @@ img.mobile-logo{
     .logo{
        display: none;
     }
-    .nav{
-        margin-top: 1rem;
-    }
-
-  }
+}
   
   /* sm */
   @media (min-width: 640px){
@@ -105,7 +100,7 @@ img.mobile-logo{
         width: 45px;
     }
 
-  }
+    }
   
   /* md */
   @media (min-width: 768px){
@@ -121,11 +116,10 @@ img.mobile-logo{
         margin-top: 0.7rem;
         display: flex;
         justify-content: space-between;
+        padding: 0;
     }
     .mobile-nav{
         display: none;
-    }
-    .headline{
     }
     .headline ul{
         display: flex;
@@ -164,7 +158,7 @@ img.mobile-logo{
             gap: 0.9rem;
             justify-content: right;
         }
-        
+    }
     
     /* 2xl */
     @media (min-width: 1280px){

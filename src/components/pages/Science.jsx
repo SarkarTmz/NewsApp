@@ -8,11 +8,11 @@ const Science = () => {
   const [news, setNews] = useState([])
 
   const fetchNews = async() => {
-    const response = await axios.get("https://newsapi.org/v2/everything?q=science&apiKey=ae2ea196d81647079b5524e6370cf636")
+    const response = await axios.get("https://newsdata.io/api/1/news?apikey=pub_29574bfa3f6a63368bbe6f448c9edf9f774ee&q=science")
     console.log(response.data)
     // setNews(response.data)
     if(response.status == 200){
-      setNews(response.data.articles)
+      setNews(response.data.results)
       // console.log(news)
     }
     
@@ -34,8 +34,8 @@ const Science = () => {
                 <p>{newsItem.title}</p>
                 <p>{newsItem.description}</p>
                 {/* <p>{newsItem.url}</p> */}
-                <p>{newsItem.publishedAt}</p>
-                <p>{newsItem.content}</p>
+                <p>{newsItem.pubDate}</p>
+                <p>{newsItem.country}</p>
               </div>
             </div>
           )

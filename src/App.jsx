@@ -12,6 +12,7 @@ import Science from "./components/pages/Science"
 import Social from "./components/pages/Social"
 import Entertainment from "./components/pages/Entertainment"
 import Education from './components/pages/Education';
+import Solo from './components/pages/Solo';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='social' element={<Social/>}/>
           <Route path='entertainment' element={<Entertainment/>}/>
           <Route path='education' element={<Education/>}/>
+          <Route path='details' element={<Solo/>}/>
         </Routes>
       <Footer />
     </>
