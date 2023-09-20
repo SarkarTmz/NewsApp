@@ -24,23 +24,24 @@ const Sport = () => {
 
   return (
     <>
-      {
-        news.map((newsItem) =>{
-          return(
-            <div className="card container section">
-              <div className='item'>
+          {
+            news.map((newsItem) =>{
+              return(
+                <div className="card container section">
+                <div className='item'>
                 <img src={newsItem.image_url} alt="" />
-                <p>{newsItem.article_id}</p>
-                <p>{newsItem.title}</p>
+                <p>{newsItem.author}</p>
+                <h3>{newsItem.title}</h3>
                 <p>{newsItem.description}</p>
                 {/* <p>{newsItem.url}</p> */}
-                <p>{newsItem.pubDate}</p>
-                <p>{newsItem.country}</p>
-              </div>
+                <p className='mini'>{newsItem.pubDate}</p>
+                <p className='mini'>{newsItem.country}</p>
+                  <button className='btn' onClick={()=>navigate("/details/" + newsItem.id)} >View More</button>
+                </div>
             </div>
-          )
-        })
-      }
+              )
+            })
+          }
     </>
   )
 }

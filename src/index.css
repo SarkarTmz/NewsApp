@@ -61,6 +61,19 @@ button{
   cursor: pointer;
   color: inherit;
 }
+.btn{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.mini{
+  background-color: var(--clr-rose);
+  margin: 0.3rem;
+  display: block;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  border-radius: 0.4rem;
+}
 a{
   color: var(--clr-rose);
 }

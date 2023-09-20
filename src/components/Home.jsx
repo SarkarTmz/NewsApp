@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState} from 'react'
 import '../styles/Home.css'
 import axios from 'axios'
-import { Link, useNavigate  } from 'react-router-dom'
+import { useNavigate  } from 'react-router-dom'
 
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
   const [news, setNews] = useState([])
 
   const fetchNews = async() => {
-    const response = await axios.get("https://newsdata.io/api/1/news?apikey=pub_29574bfa3f6a63368bbe6f448c9edf9f774ee&q=general")
-    console.log(response.data.results[0].description)
+    const response = await axios.get("https://newsdata.io/api/1/news?apikey=pub_29574bfa3f6a63368bbe6f448c9edf9f774ee&q=social")
+    // console.log(response.data.results[0].description)
     // setNews(response.data)
     if(response.status == 200){
       setNews(response.data.results)
@@ -32,17 +32,15 @@ const Home = () => {
         news.map((newsItem) =>{
           return(
             <div className="card container section">
-               <img src={newsItem.image_url} alt="" />
                 <div className='item'>
-                  {/* <p>{newsItem.author}</p> */}
-                  <p>{newsItem.title}</p>
-                  <p>{newsItem.description}</p>
-                  {/* <p>{newsItem.url}</p> */}
-                  <p className='mini'>{newsItem.country}</p>
-                  <p className='mini'>{newsItem.pubDate}</p>
-
-                  {/* <button><Link to="/details">About</Link></button> */}
-                  <button onClick={()=>navigate("/details/" + news.name)} >Edit</button>
+                <img src={newsItem.image_url} alt="" />
+                <p>{newsItem.author}</p>
+                <h3>{newsItem.title}</h3>
+                <p>{newsItem.description}</p>
+                {/* <p>{newsItem.url}</p> */}
+                <p className='mini'>{newsItem.pubDate}</p>
+                <p className='mini'>{newsItem.country}</p>
+                  <button className='btn' onClick={()=>navigate("/details/" + newsItem.article_id)} >View More</button>
                 </div>
             </div>
           )

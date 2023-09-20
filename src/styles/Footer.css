@@ -3,9 +3,7 @@
     color: var(--clr-light);
     font-family: 'Lexend Deca', sans-serif;
 }
-.footer-list ul h3{
-    text-decoration: underline;
-}
+
 .footer-list ul li{
     color: var(--clr-slate400);
     list-style: none;

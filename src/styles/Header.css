@@ -9,7 +9,6 @@
 .nav a{
     /* margin-top: 1rem; */
     text-decoration: none;
-    font-weight: 600;
     color: var(--clr-slate200);
 }
 .nav{
@@ -37,10 +36,9 @@
 
 .main2{
     position: fixed;
-    top: ;
     right: 0;
     width: 100%;
-    /* margin-top: 0rem; */
+    margin-top: -0.5rem;
 }
     
 .mobile-nav{

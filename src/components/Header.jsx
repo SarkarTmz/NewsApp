@@ -3,6 +3,8 @@ import { Link, Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import logo from '../img/logo.jpg';
 import Home from './Home';
+import MobileNav from './MobileNav';
+
 
 const Header = ()=>{
   return (
@@ -13,18 +15,14 @@ const Header = ()=>{
                   <div className='ul'>
                     <ul>
                       <li><Link to="/">Home</Link></li>
-                      <li><Link to="/about">About</Link></li>
+                      <li><Link to="/breaking">Breaking News</Link></li>
+                      <li><Link to="/addnews">Add News</Link></li>
                       <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </div>
               </nav>
         </div>  
-            <div className="mobile-nav container">
-            <Link to="/"><img src={logo} alt="" className='mobile-logo' /></Link>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="bar">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </div>
+          
 
           <div className="main2">
             <div className="headline">
@@ -40,17 +38,10 @@ const Header = ()=>{
             </div>
             </div>
 
-  
+        
 
-             {/* <div className="mobile-li" id='mobile'>
-               <ul>
-                 <li>Home</li>
-                 <li>Class</li>
-                 <li>Collage</li>
-                 <li>Service</li>
-               </ul>
-             </div> */}
-    </>
+          {/* <MobileNav /> */}
+          </>
   );
 }
 

@@ -11,15 +11,7 @@
 .item{
     /* background-color: rgb(171, 171, 171); */
 }
-.mini{
-  background-color: var(--clr-rose);
-  margin: 0.3rem;
-  display: block;
-  width: 10rem;
-  color: white;
-  text-align: center;
-  border-radius: 0.4rem;
-}
+
 
 
 /* xs */
