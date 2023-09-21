@@ -14,6 +14,7 @@ import Entertainment from "./components/pages/Entertainment"
 import Education from './components/pages/Education';
 import Details from './components/pages/Details';
 import Addnews from './components/Addnews';
+import Single from './components/pages/Single';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='social' element={<Social/>}/>
           <Route path='entertainment' element={<Entertainment/>}/>
           <Route path='education' element={<Education/>}/>
+          <Route path='/single/:id' element={<Single/>}/>
           <Route path='/details/:article_id' element={<Details/>}/>
         </Routes>
       <Footer />

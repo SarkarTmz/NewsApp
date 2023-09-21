@@ -2,11 +2,13 @@ import { useState } from 'react'
 import React from 'react'
 import '../styles/Addnews.css'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
+
 
 const Addnews = () => {
 
+  const navigate = useNavigate();
 
-        const [news, setNews] = useState([])
         const [title, setTitle] = useState("")
         const [subtitle, setSubtitle] = useState("")
         const [description, setDescription] = useState("")
@@ -23,6 +25,7 @@ const Addnews = () => {
             }
             const response = await axios.post("https://64ee096e1f872182714237b9.mockapi.io/blog", data)
             console.log(response)
+            navigate('/breaking');
         }
     
     

@@ -40,41 +40,7 @@
     width: 100%;
     margin-top: -0.5rem;
 }
-    
-.mobile-nav{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    z-index: 9999;
-}
-img.mobile-logo{
-    width: 60px;
-}
-.bar{
-    width: 35px;
-    cursor: pointer;
-}
-.mobile-li ul{
-    margin-top: 7rem;
-}
-.mobile-li li{
-    list-style: none;
-    font-weight: 700;
-    margin-top: 3rem;
-}
-.mobile-li{
-    position: absolute;
-    text-align: center;
-    z-index: 999999;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 75%;
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
-}
-
-
+ 
 
 /* xs */
 @media (min-width: 475px){

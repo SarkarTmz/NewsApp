@@ -40,7 +40,7 @@ const Header = ()=>{
 
         
 
-          {/* <MobileNav /> */}
+          <MobileNav />
           </>
   );
 }
