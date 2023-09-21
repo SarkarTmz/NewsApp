@@ -10,7 +10,7 @@ const Details = () => {
   const [news, setNews] = useState()
 
     const fetchNews = async ()=>{
-      const response = await axios.get("https://newsdata.io/api/1/news?apikey=pub_29574bfa3f6a63368bbe6f448c9edf9f774ee&q=social" + article_id)
+      const response = await axios.get("https://newsdata.io/api/1/news?apikey=pub_29574bfa3f6a63368bbe6f448c9edf9f774ee&q=social/" + article_id)
         if(response.status == 200){
           setNews(response.data)
         }
