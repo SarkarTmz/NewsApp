@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import logo from '../img/logo.jpg';
-import Home from './Home';
+import Home from '../pages/header-page/Home';
 import MobileNav from './MobileNav';
 
 

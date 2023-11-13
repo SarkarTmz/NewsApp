@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState} from 'react'
-// import '../styles/Home.css'
+import '../styles/Single.css'
 import axios from 'axios'
 import { useNavigate, useParams } from "react-router-dom"
 
@@ -22,10 +22,10 @@ const Single = () => {
 
 
     // delete news 
-  const deleteNews = async (id)=>{
-    const response = await axios.delete("https://64ee096e1f872182714237b9.mockapi.io/blog/" + id)
-    navigate('/breaking');
-  }
+  // const deleteNews = async (id)=>{
+  //   const response = await axios.delete("https://64ee096e1f872182714237b9.mockapi.io/blog/" + id)
+  //   navigate('/breaking');
+  // }
 
     useEffect(() => {
       fetchNews();
@@ -37,13 +37,12 @@ const Single = () => {
         <div className="card container section">
             <div className='item'>
                 <img src={news.avatar} alt="" />
-                <p>{news.author}</p>
-                <p>{news.title}</p>
-                <p>{news.description}</p>
+                <p className='title'>{news.title}</p>
+                <p className='description'>{news.description}</p>
                 {/* <p>{newsItem.url}</p> */}
-                <p>{news.createdAt}</p>
-                <p>{news.content}</p>
-                <button className='btn' onClick={() => deleteNews(news.id)}>Delete Blog</button>
+                <p className='date'>{news.createdAt}</p>
+                <p className='content'>{news.content}</p>
+                {/* <button className='btn' onClick={() => deleteNews(news.id)}>Delete Blog</button> */}
             </div>
         </div>
            </>

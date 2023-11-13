@@ -1,20 +1,21 @@
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
-import Breaking from './components/Breaking';
-import Contact from './components/Contact';
+import Home from './pages/header-page/Home';
+import Breaking from './pages/header-page/Breaking';
+import Contact from './pages/header-page/Contact';
 
 import Footer from './components/Footer'
-import Sport from './components/pages/Sport';
-import Business from './components/pages/Business';
-import Science from "./components/pages/Science"
-import Social from "./components/pages/Social"
-import Entertainment from "./components/pages/Entertainment"
-import Education from './components/pages/Education';
-import Details from './components/pages/Details';
-import Addnews from './components/Addnews';
-import Single from './components/pages/Single';
+import Sport from './pages/category-page/Sport';
+import Business from './pages/category-page/Business';
+import Science from "./pages/category-page/Science"
+import Social from "./pages/category-page/Social"
+import Entertainment from "./pages/category-page/Entertainment"
+import Education from './pages/category-page/Education';
+import Addnews from './pages/header-page/Addnews';
+
+import Details from './pages/Details';
+import Single from './pages/Single';
 
 function App() {
   return (
