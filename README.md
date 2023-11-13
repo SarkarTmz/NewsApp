@@ -15,7 +15,7 @@ In this App i use the api from third party site which help me to learn more. So 
 - Api
 
 ### To use this code
-- git clone
+- git clone https://github.com/SarkarTmz/NewsApp
 - npm install
 - npm run dev
 
