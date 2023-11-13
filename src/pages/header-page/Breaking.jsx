@@ -32,7 +32,7 @@ const Breaking = () => {
             news.map((newsItem) =>{
               return(
                 <div className="breaking-card container section">
-                  <div className='item'>
+                  <div className='breaking-item'>
                     <img src={newsItem.avatar} alt="" />
                     <p className='title'>{newsItem.title}</p>
                     <p className=''>{newsItem.description}</p>

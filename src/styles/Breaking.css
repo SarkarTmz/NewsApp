@@ -12,6 +12,18 @@
     cursor: pointer;
 }
 
+.title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.description{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.content{
+  margin-top: 5rem;
+}
 
 /* xs */
 @media (min-width: 475px){

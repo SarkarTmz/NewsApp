@@ -10,7 +10,7 @@ const Addnews = () => {
   const navigate = useNavigate();
 
         const [title, setTitle] = useState("")
-        const [subtitle, setSubtitle] = useState("")
+        const [content, setContent] = useState("")
         const [description, setDescription] = useState("")
         const [avatar, setAvatar] = useState("")
         // console.log(title)
@@ -21,7 +21,8 @@ const Addnews = () => {
             const data = {
                 title : title,
                 description : description,
-                avatar : avatar
+                avatar : avatar,
+                content : content
             }
             const response = await axios.post("https://64ee096e1f872182714237b9.mockapi.io/blog", data)
             console.log(response)
@@ -47,21 +48,23 @@ const Addnews = () => {
                 />
               </div>
               <div>
-                <label htmlFor="name">Subtitle</label>
-                <input
-                  type="text"
-                  id="subtitle"
-                  name="subtitle"
-                  onChange={(e)=>setSubtitle(e.target.value)}
-                />
-              </div>
-              <div>
-                <label htmlFor="name">Discription</label>
-                <input
+                <label htmlFor="name">Description</label>
+                <textarea
                   type="text"
                   id="description"
                   name="description"
+                  rows="6"
                   onChange={(e)=>setDescription(e.target.value)}
+                />
+              </div>
+              <div>
+                <label htmlFor="name">Content</label>
+                <textarea
+                  type="text"
+                  id="content"
+                  name="content"
+                  rows="10"
+                  onChange={(e)=>setContent(e.target.value)}
                 />
               </div>
               <div>
