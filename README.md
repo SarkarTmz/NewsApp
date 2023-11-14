@@ -5,6 +5,12 @@ Hello, as a student i make this news app using ReactJS. After i completed basic 
 
 In this App i use the api from third party site which help me to learn more. So data in the site will change automatically, need to manual update. Also site is pure responsive😅. Contributions are always welcome. **## Happy Coding ##**
 
+## Deployment
+
+This project is live here
+
+https://powernewsx.netlify.app/
+
 ## Point to say:-
 
 **Clean code**
@@ -30,13 +36,6 @@ In this App i use the api from third party site which help me to learn more. So 
 **React-hooks**
 
 **axios**
-
-## Deployment
-
-This project is live here
-
-https://powernewsx.netlify.app/
-
 
 
 ## Installation
