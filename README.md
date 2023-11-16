@@ -1,13 +1,14 @@
 # News App
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/news-app.svg)](https://github.com/yourusername/news-app/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/SarkarTmz/NewsApp.svg)](https://github.com/SarkarTmz/NewsApp/stargazers)
 
 ## Introduction
 Hello,
-Welcome to the News App! This project is a news application built using React.js. As a student, this marks my first venture into React.js development. In this news app here we can get trending news from worldwide. We can read differents categories news on one site. The news are fechted from differents servers, so this is always up to date and no need to updated anything. Here we also can post our news which is save on server and can be modify news too.
+Welcome to the News App! This project is a news application built using React.js. As a student, this marks my first venture into React.js development. In this news app here we can get trending news from worldwide. We can read differents categories news on one site. The news are fechted from differents servers, so this is always up to date and no need to updated anything. Here we also can post our news which is save on server and can be modify news too. This code will be the reference for beginner to learn React Props, React State Management, React Hooks, Api Intergration, Looping the date, Fatching data from server etc.
 
-This code will be the reference for beginner to learn React Props, React State Management, React Hooks, Api Intergration, Looping the date, Fatching data from server etc. Special thanks to [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878) and Mahesh Sir for their excellent teaching, which has been invaluable in learning React.js. All the junior from Nepal whoes are seeking roadmap on programming and coding recomand them to join [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878).
+## Special Acknowledgement
+Special thanks to [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878) and [Mahesh Sir](https://github.com/maheshbasnet089) for their excellent teaching, which has been invaluable in learning React.js. After completing 9 days session of reactjs, i learn about why react for frondend, react foundation and architecture, state management, api interation and definitely a roadmap for upcoming days. All the junior from Nepal whoes are seeking to start journey on programming and coding recomand them to join [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878).
 
 
 ## Features
@@ -64,8 +65,6 @@ npm run dev
 ## Contributing
 
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
