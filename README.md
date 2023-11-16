@@ -9,7 +9,7 @@ In this App i use the api from third party site which help me to learn more. So 
 
 This project is live here
 
-https://powernewsx.netlify.app/
+https://powernews.vercel.app/
 
 ## Point to say:-
 
