@@ -1,58 +1,66 @@
+# News App
 
-# React App Store
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/news-app.svg)](https://github.com/yourusername/news-app/stargazers)
 
-Hello, as a student i make this news app using ReactJS. After i completed basic of React i make this basic news app. This code willl be the reference for beginner to learn React Props, React State Management, React Hooks, Api Intergration, Looping the date, Fatching data from server etc.
+## Introduction
+Hello,
+Welcome to the News App! This project is a news application built using React.js. As a student, this marks my first venture into React.js development. In this news app here we can get trending news from worldwide. We can read differents categories news on one site. The news are fechted from differents servers, so this is always up to date and no need to updated anything. Here we also can post our news which is save on server and can be modify news too.
 
-In this App i use the api from third party site which help me to learn more. So data in the site will change automatically, need to manual update. Also site is pure responsive😅. Contributions are always welcome. **## Happy Coding ##**
+This code will be the reference for beginner to learn React Props, React State Management, React Hooks, Api Intergration, Looping the date, Fatching data from server etc. Special thanks to [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878) and Mahesh Sir for their excellent teaching, which has been invaluable in learning React.js. All the junior from Nepal whoes are seeking roadmap on programming and coding recomand them to join [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878).
 
+
+## Features
+- We can read trending and latest news,
+- Top speed and reliable to load news on site,
+- No need to have gmail account or register,
+- Different categories news in one place like sport, science and technology, business and economics, social issues, education and entertainment etc,
+- Regular auto news Update,
+- Can create, updated and delete news,
+- User friendly ui design, easly to use and responsive to all device,
+
+  ##### Note: Contributions are always welcome. Happy Coding 
+  
 ## Deployment
 
-This project is live here
+This project is live here:-
 
 https://powernews.vercel.app/
 
-## Point to say:-
-
-**Clean code**
-
-**Pure responsive**
-
-**Beginner friendly**
-
-
-
-## Technologies use in
-
-**HTML5**
-
-**CSS3**
-
-**JavaScript**
-
-**React**
-
-**API**
-
-**React-hooks**
-
-**axios**
-
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Axios (for making API requests)
+- React Router (for navigation)
+- React Hooks (for state management)
 
 ## Installation
 
-To Use this code, follow this steps:-
+To run this project locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-  git clone https://github.com/SarkarTmz/NewsApp
-
-  cd NewsApp
-
-  npm install
-
-  npm run dev
-  
+git clone https://github.com/SarkarTmz/NewsApp
 ```
-    
+
+2. Enter to folder after clone:
+```bash
+cd NewsApp
+```
+
+3. Install dependency of project :
+```bash
+npm install
+```
+
+4. Run the code :
+```bash
+npm run dev
+```
+
 ## Contributing
 
 Contributions are always welcome!
