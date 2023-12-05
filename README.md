@@ -7,10 +7,6 @@
 Hello,
 Welcome to the News App! This project is a news application built using React.js. As a student, this marks my first venture into React.js development. In this news app here we can get trending news from worldwide. We can read differents categories news on one site. The news are fechted from differents servers, so this is always up to date and no need to updated anything. Here we also can post our news which is save on server and can be modify news too. This code will be the reference for beginner to learn React Props, React State Management, React Hooks, Api Intergration, Looping the date, Fatching data from server etc.
 
-## Special Acknowledgement
-Special thanks to [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878) and [Mahesh Sir](https://github.com/maheshbasnet089) for their excellent teaching, which has been invaluable in learning React.js. After completing 9 days session of reactjs, i learn about why react for frondend, react foundation and architecture, state management, api interation and definitely a roadmap for upcoming days. All the junior from Nepal whoes are seeking to start journey on programming and coding recomand them to join [Digital Pathshala](https://www.facebook.com/profile.php?id=100094408225878).
-
-
 ## Features
 - We can read trending and latest news,
 - Top speed and reliable to load news on site,
